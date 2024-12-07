@@ -1,8 +1,9 @@
 body {
+    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding:0;
+    margin: 0px;
+    padding:0px;
     min-height: 100vh;
 }
 
@@ -31,4 +32,43 @@ body {
     font-size: 18px;
     color: #f9faf8c4 ;
 }
+
+.intro {
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #1f2937;
+}
+
+.intro_header {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.intro_subtxt {
+    margin:0px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.intro_b {
+    margin-top: 10px;
+    border: none;
+    width: 85px;
+    height:25px;
+    color: white;
+    background-color:#3882f6 ;
+    border-radius: 5px;
+}
+
+.img_plcHlder {
+    align-self: center;
+   background-color: grey;
+    width: 500px;
+    height: 250px;
+}
+
 
