@@ -1,14 +1,12 @@
 body {
-    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
-    margin: 0px;
-    padding:0px;
+    margin: 0;
+    width: 100%;
     min-height: 100vh;
 }
 
 .header {
-    display: flex;
     flex-direction:column;
     flex-wrap: wrap;
 }
@@ -16,7 +14,6 @@ body {
 .navbar, .navbar_left, .navbar_right {
     justify-content: space-around;
     display: flex;
-    flex-wrap: wrap;
     background-color: #1f2937;
     font-family:'Roboto';
 }
@@ -65,10 +62,55 @@ body {
 }
 
 .img_plcHlder {
+    margin-top: 10px;
     align-self: center;
    background-color: grey;
     width: 500px;
-    height: 250px;
+    height: 240px;
 }
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.hd {
+    text-align: center;
+    flex:1;
+    font-size:36px;
+    color: #1f2937;
+    font-weight: 900;
+    justify-self: center;
+    padding-top: 50px;
+}
+
+.holder_holderlol {
+    padding-top: 50px;
+    display:flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap:wrap;
+}
+
+.box {
+    justify-self: center;
+    border-style:solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.mid_txt {
+    text-align: center;
+    padding-top: 8px;
+    justify-self: center;
+    margin-bottom: 50px;
+}
+
+
 
 
